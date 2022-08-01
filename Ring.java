@@ -1,26 +1,3 @@
-// Domenic bartha                           MtrKl-Nr: 813646
-
-/*  Java exist..
-    me: 
-⢟⣭⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⣶⣦⡙⣿⣿
-⢸⡿⢣⣤⣍⢻⣿⣿⣿⡿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠛⣭⣥⡘⢿
-⣎⠃⣿⡿⠏⣘⣛⠿⡟⣼⣿⣷⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢉⣿⣧⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠿⢿⣿⣿⠀⠹⣿⣿⠘
-⣿⡇⡿⢱⣿⣿⣿⡇⣰⣿⡟⣥⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣨⣥⣤⣤⣄⠉⠉⡛⠿⣿⣿⣿⣿⣿⣿⣿⠁⣿⣿⡎⣿⡿⠐⣤⣭⡙⢰
-⣿⣷⠀⣾⣿⢫⣴⣾⣿⡿⢰⣿⣿⣿⣿⣿⣿⣿⠟⣡⠤⠔⠛⠛⣿⣿⣟⠋⠉⠙⠛⠷⣦⡙⢿⣿⣿⣿⣿⣷⡜⣿⡇⠟⣡⣆⠻⣿⣿⡆
-⣿⣿⣧⢹⣿⣸⣿⣿⣿⡇⢻⣿⣿⣿⣿⣿⠟⣱⠞⠁⢀⠀⣠⣶⣿⣿⣿⣧⣐⠠⣀⠀⢸⣿⣦⡙⣿⣿⣿⣿⡇⣼⣿⢾⣿⡿⢃⣸⣿⠇
-⣿⣿⣿⡜⣿⣿⣿⣦⠙⡗⣸⣿⣿⣿⣿⠃⣾⣧⣤⣶⣶⠾⣋⣥⣶⣶⣶⣤⣍⡻⣿⣿⣿⣿⣿⣷⡘⢿⣿⣿⡇⠟⢰⣾⣿⣷⣿⣿⢋⣼
-⣿⣿⣿⣿⣜⠿⣿⣿⡇⣴⣿⣿⣿⣿⠇⣾⣿⣿⣿⡿⢡⣾⣿⣿⣿⣿⣿⣿⣿⣷⣎⠻⣿⣿⣿⣿⣿⡘⣿⣿⣿⣄⠸⣿⣿⠿⢋⣵⣿⣿
-⣿⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⡟⢰⣿⣿⣿⡿⣱⣿⡿⠁⠀⠹⣿⠏⠀⠙⣿⣿⣧⠹⣿⣿⣿⣿⣧⢸⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣾⣿⣿⡿⢱⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣧⢹⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⣿⣿⢃⣾⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡆⢿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢹⣿⡿⢸⣿⣿⣿⠀⢠⣴⣾⣿⣷⣦⡄⢠⣿⣿⣿⣿⠸⣿⣿⡿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡌⢿⡇⣿⣿⣿⢋⣼⣿⣿⣿⣿⣿⣿⣿⣧⡙⣿⣿⣿⡇⢿⣿⠃⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⢸⡇⣿⡿⢣⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣌⠻⣿⡇⢸⠉⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡘⣷⣶⢖⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⣬⣴⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣌⣥⡘⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⢂⣙⣛⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⣉⡛⠛⠿⠿⠿⠿⠛⢛⣋⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-*/
-
 import java.util.NoSuchElementException; // für die exeptions 
 
 class Ring<T>{ 
@@ -105,15 +82,15 @@ public static void main(String[] args){
     o.add(3);
     o.add(4);
     System.out.println(o.toString());
-     o.remove();
-     System.out.println(o.toString());
-     o.back();
-     System.out.println("nach einmal back gehen"+ o.toString());
-     o.remove();
-     System.out.println(o.toString());
-     o.remove();
-     System.out.println(o.toString());
-     o.remove();
+    o.remove();
+    System.out.println(o.toString());
+    o.back();
+    System.out.println("nach einmal back gehen"+ o.toString());
+    o.remove();
+    System.out.println(o.toString());
+    o.remove();
+    System.out.println(o.toString());
+    o.remove();
     
     // leerer Ring remove() exeption
     try{
@@ -151,7 +128,7 @@ public static void main(String[] args){
    
     System.out.println(rR.toString());
     //set()
-     System.out.println("set(vogel)__________________________-");
+    System.out.println("set(vogel)__________________________-");
     rR.set("vogel");
     System.out.println(rR.toString());
     System.out.println("_________________________________");
@@ -164,12 +141,12 @@ public static void main(String[] args){
     rR.remove();
     System.out.println(rR.toString()); 
 
-System.out.println("__________________________________");
-System.out.println("Tests mit Double Ring");
-   
-// ring mit Double test
-
-     // ring exeption wenn negative größe übergeben wird
+    System.out.println("__________________________________");
+    System.out.println("Tests mit Double Ring");
+    
+    // ring mit Double test
+    
+    // ring exeption wenn negative größe übergeben wird
     try{
     Ring<Double> müll = new Ring<Double>(-1);
     }catch(Exception a){System.out.println(a.getMessage());}
@@ -238,15 +215,15 @@ System.out.println("Tests mit Double Ring");
     o1.add(3.4);
     o1.add(4.8);
     System.out.println(o1.toString());
-     o1.remove();
-     System.out.println(o1.toString());
-     o1.back();
-     System.out.println("nach einmal back gehen"+ o1.toString());
-     o1.remove();
-     System.out.println(o1.toString());
-     o1.remove();
-     System.out.println(o1.toString());
-     o1.remove();
+    o1.remove();
+    System.out.println(o1.toString());
+    o1.back();
+    System.out.println("nach einmal back gehen"+ o1.toString());
+    o1.remove();
+    System.out.println(o1.toString());
+    o1.remove();
+    System.out.println(o1.toString());
+    o1.remove();
     
     // leerer Double Ring remove() exeption
     try{
